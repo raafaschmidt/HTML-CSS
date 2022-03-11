@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(idroid.otf);
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(65, 211, 126) ,rgb(45, 117, 67));
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    font-size: small;
+    margin: 0 auto;
+    
+    
+}
+.titulo{
+    font-size: 3em;
+}
+
+nav > ul{
+list-style: none;
+padding: 2px;
+text-align: left;
+
+
+}
+
+ul > li{
+    display: inline;
+    text-align: left;
+    padding: 5px;
+}
+
+
+
+body{
+    background-color: rgb(130, 230, 155);
+    width:auto
+
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: auto;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 55%;
+    text-indent: 10px;
+    
+    
+}
+.menu{
+    font-size: 1em;
+    
+}
+
+
+
+main > h1{
+    font-family: idroid;
+    color: rgb(9, 82, 9);
+    text-align: left;
+}
+span{
+    color: rgb(9, 82, 9);
+}
+
+main > h2{
+    font-family: idroid;
+    color: rgb(9, 82, 9);
+    text-align: left;
+    background-color: rgb(184, 245, 211);
+}
+.imgandroid{
+
+    margin: auto;
+    text-align: center;
+    display: block;
+    align-items: center;
+    
+}
+.irina{
+    width: auto;
+    margin: auto;
+    justify-self: center;
+    display: block;
+}
+.bugdroid{
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+.videoandroid{
+    
+    border-width: 60px;
+    border-style: solid;
+    border-color: rgb(2, 68, 16);
+    margin:auto;
+    display: block;
+
+}
+.aprender{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(19, 177, 116);
+    border-radius: 5px;
+    text-align: left;
+    font-size: medium;
+}
+
+section {
+    background-color: rgb(203, 240, 218);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: black;
+}
+
+.paragrafo{
+    text-indent: 10px;
+}
+section > ul{
+    display: block;
+    margin: auto;
+    font-style: normal;
+    font-size: medium;
+    color: black;
+    
+}
+.coluna1{
+    width: 90%;
+    margin: 5%;
+    column-count: 2;
+    padding: auto;
+}
+a{
+    color: black;
+}
+footer{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: rgb(2, 68, 16);
+    text-align: center;
+    margin: auto;
+    padding-top: 1px;
+    
+}
+

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    background-image: linear-gradient(to right, rgb(0, 255, 157), green);
+    
+    
+}
+h1{
+    
+    /* simplificado shorthand:> seguir sempre esta ordem
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: "Arial, Helvetica;
+    */
+    font: italic bold 3em Arial, Helvetica;
+    text-decoration: underline;
+    text-align: center;
+}
+h2{
+    
+    /* simplificado shorthand:> seguir sempre esta ordem
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: "Arial, Helvetica;
+    */
+    font: italic bold 2em Arial, Helvetica;
+    text-decoration: underline;
+    text-align: left;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+    /* text-indent espaço no inicio do parágrafo */
+}

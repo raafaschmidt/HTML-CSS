@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+/* tem que ser sempre em ingles, nunca traduzido */
+
+Body{
+    font-family:  'Redressed', Times, serif;
+    font-size: 1em;
+}
+h1{
+    font-family: "Redressed", Helvetica, sans-serif;
+    font-size: 3em;
+
+}
+h2{
+    font-size: 2em;
+    font-family: "Redressed", Arial, Helvetica, sans-serif;
+}
